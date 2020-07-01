@@ -1,0 +1,18 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20rem;
+	height: 100vh;
+	background-color: #1df3cfe3;
+	color: purple;
+	transform: translateX(-20rem);
+	transition: ease 1s;
+	display: flex;
+	text-align: center;
+
+	&-open {
+		// background-color: #000;
+		transform: translateX(0);
+	}
+}

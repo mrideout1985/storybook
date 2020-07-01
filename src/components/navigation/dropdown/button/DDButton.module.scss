@@ -1,0 +1,15 @@
+button {
+	padding: 0.8rem;
+	outline: none;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
